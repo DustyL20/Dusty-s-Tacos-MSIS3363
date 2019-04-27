@@ -1,0 +1,263 @@
+﻿
+/*orange #E95420;
+
+
+green #38B44A;*/
+
+body {
+    background-image: url('images/gradient-background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-x: hidden;  
+}
+
+.centertable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.menuTD {
+    padding: 20px;
+}
+
+td {
+    border: 1px;
+    text-align: left;
+    padding: 5px;
+}
+
+th {
+    font-size:x-large;
+    color:#38B44A;
+    font-style: italic;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #E95420;
+    height: 5px;
+   
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #38B44A;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;  
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E95420;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    color: white;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    max-height: 300px;  
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(#38B44A, #12ba3b);
+}
+
+.banner:hover .overlay {
+    opacity: 1;
+}
+
+.text{
+    font-size: 70px;   
+    font-style: italic;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:50px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #E95420;
+    color: white;
+}
+
+.fa-twitter {
+    background: #E95420;
+    color: white;
+}
+
+.fa-instagram {
+    background: #E95420;
+    color: white;
+}
+
+
+.container-default {
+    /*background-color: #E95420;*/
+    background-image: linear-gradient(#E95420, #ff6a00);
+    color: white;
+    margin: 60px;
+    text-align: center;
+    font-style: italic;
+    line-height: 50px;
+}
+
+.container-about {
+    background-image: linear-gradient(#E95420, #ff6a00);
+    color: white;
+    margin: 100px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.container-contactus {
+    background-image: linear-gradient(#E95420, #ff6a00);
+    margin: 0 auto;
+    width: 600px;
+    color: white;
+    padding: 10px;
+}
+
+.our-menu {
+    background-image: linear-gradient(#E95420, #ff6a00);
+    margin: 0 auto;
+    width: 300px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-locations {
+    background-image: linear-gradient(#E95420, #ff6a00);
+    margin: 0 auto;
+    width: 300px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0 auto;
+    width: 100px;
+}
+
+h3 {
+    margin: 0 auto;
+    width: 100px;
+    color: #E95420;
+    font-style: italic;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    position: relative;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.column:hover .image {
+    opacity: 0.3;
+}
+
+.column:hover .middle {
+    opacity: 1;
+}
+
+.text1 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 6px 14px;
+}
+
+
+
+    
+
+
+
+
+

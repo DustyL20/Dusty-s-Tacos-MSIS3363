@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.Master.cs" Inherits="dustystacos.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+         <img src="images/logo.png.png" alt="Banner Image"/>
+    </div>
+
+   <ul>
+    <li><a href="default.aspx">Home</a></li>
+    <li><a href="aboutus.aspx">About Us</a></li>
+    <li><a href="menu.aspx">Menu</a></li>
+    <li><a href="locations.aspx">Locations</a></li>
+    <li><a href="merch.aspx">Merch</a></li>
+   </ul>
+        <div>
+            <asp:ContentPlaceHolder ID="contentbody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+
+    <footer>
+        <p>
+            Copyright 2019 &#169; Dusty's Tacos, all rights reserved
+        </p>
+    </footer>
+</body>
+
+</html>
+
